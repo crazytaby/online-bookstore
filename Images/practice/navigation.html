@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav</title>
+    <style>
+        .navbar {
+            background-color: #000000;
+            overflow: auto;
+            border-radius: 12px;
+        }
+
+        nav ul li {
+            float: left;
+            list-style: none;
+            margin-bottom: 16px;
+            margin-right: 120px;
+        }
+
+        #home {
+            margin-left: 60px;
+        }
+
+        #searchbar {
+            margin-left: 16cm;
+            width: 7cm;
+            border-radius: 7px;
+            margin-bottom: 15px;
+            height: 16px;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover{
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <nav>
+            <ul>
+                <li id="home"> <a href="#">Home</a></li>
+                <li> <a href="#">About</a> </li>
+                <li> <a href="#">Courses</a> </li>
+            </ul>
+            <input type="text" placeholder="Search" id="searchbar">
+        </nav>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .container{
+            border: black solid 3px;
+            width: 100%;
+            height: 100%;
+            margin: 55px auto;
+            background-color:  rgb(246 166 223);
+        }
+        .box{
+            border: black solid 3px;
+            margin: 3px;
+            padding: 5px;
+        }
+        #fruit{
+            float: left;
+            width: 49%;
+            margin-left: 3px;
+        }
+        #computer{
+            float: right;
+            width: 49%;
+            margin-right: 3px;
+        }
+        #music{
+            clear: both;
+        }
+        p,h4{
+            font-family:Arial, Helvetica, sans-serif;
+            font: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome to my store</h2>
+        <div class="box" id="fruit">
+            <h4>Fruits</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio odit corporis obcaecati rerum at, ipsum veritatis, magnam ut, vitae consectetur quasi rem similique perferendis omnis nesciunt dolorum dignissimos. Nulla earum excepturi ullam deleniti molestias!</p>
+        </div>
+        <div class="box" id="computer">
+            <h4>Computer</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio odit corporis obcaecati rerum at, ipsum veritatis, magnam ut, vitae consectetur quasi rem similique perferendis omnis nesciunt dolorum dignissimos. Nulla earum excepturi ullam deleniti molestias!</p>
+        </div>
+        <div class="box" id="music">
+            <h4>Music</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio odit corporis obcaecati rerum at, ipsum veritatis, magnam ut, vitae consectetur quasi rem similique perferendis omnis nesciunt dolorum dignissimos. Nulla earum excepturi ullam deleniti molestias!</p>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

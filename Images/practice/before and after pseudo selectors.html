@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <style>
+        body{
+            color: white;
+            background-color: black;
+        }
+        .navbar{
+            display: flex;
+        }
+        li{
+            list-style: none;
+            padding: 20px 20px;
+        }
+        section{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            height: 300px;
+        }
+        header::before{
+            background-image: url('bg3.jpg');
+            content: "";
+            position: absolute;
+            height: 100vh;
+            width: 100%;
+            z-index: -1;
+            top: 0;
+            left: 0;
+            opacity: 0.3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul class="navbar">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Help</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <h1>Welcome to coding world</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, fuga voluptates sint molestias maiores dolorum, accusamus itaque est odio pariatur velit unde, nostrum et quas fugit similique vero excepturi officia. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, amet ducimus, blanditiis dignissimos veniam quod vitae accusamus voluptatum quidem quo molestias quia sit nisi voluptatibus distinctio vel, ea est sequi!</p>
+    </section>
+</body>
+</html>
